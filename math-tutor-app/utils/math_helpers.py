@@ -1,4 +1,0 @@
-"""
-Math helper utilities placeholder.
-"""
-

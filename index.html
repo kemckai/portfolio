@@ -34,6 +34,7 @@
                 <li><a href="#experience" class="nav-link" data-lang="en">Experience</a><a href="#experience" class="nav-link hidden" data-lang="de">Erfahrung</a></li>
                 <li><a href="#education" class="nav-link" data-lang="en">Education</a><a href="#education" class="nav-link hidden" data-lang="de">Bildung</a></li>
                 <li><a href="#portfolio" class="nav-link" data-lang="en">Portfolio</a><a href="#portfolio" class="nav-link hidden" data-lang="de">Portfolio</a></li>
+                <li><a href="#projects" class="nav-link" data-lang="en">Projects</a><a href="#projects" class="nav-link hidden" data-lang="de">Projekte</a></li>
                 <li><a href="#contact" class="nav-link" data-lang="en">Contact</a><a href="#contact" class="nav-link hidden" data-lang="de">Kontakt</a></li>
             </ul>
             <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
@@ -345,6 +346,96 @@
                     </p>
                 </div>
 
+            </div>
+        </div>
+    </section>
+
+    <!-- Software projects. Cards match the audio portfolio items above. -->
+    <section id="projects" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title" data-lang="en">Projects</h2>
+            <h2 class="section-title hidden" data-lang="de">Projekte</h2>
+            <p class="section-intro" data-lang="en">
+                Five versions of The Presidency. Each card links to its GitHub repository. None of these repositories has a homepage.
+            </p>
+            <p class="section-intro hidden" data-lang="de">
+                Fünf Versionen von The Presidency. Jede Karte verlinkt auf ihr GitHub-Repository. Keines dieser Repositories hat eine Homepage.
+            </p>
+            <div class="portfolio-grid">
+                <!-- 1. Default branch. Repository homepage is unset. -->
+                <div class="portfolio-item" id="presidency-github">
+                    <h3 data-lang="en">The Presidency (GitHub sim)</h3>
+                    <h3 class="hidden" data-lang="de">The Presidency (GitHub-Simulation)</h3>
+                    <p class="portfolio-category" data-lang="en">Historical strategy sim · GDScript · master</p>
+                    <p class="portfolio-category hidden" data-lang="de">Historische Strategiesimulation · GDScript · master</p>
+                    <p class="portfolio-description" data-lang="en">
+                        Historical strategy sim. Washington and Lincoln are playable. The repository has no homepage.
+                    </p>
+                    <p class="portfolio-description hidden" data-lang="de">
+                        Historische Strategiesimulation. Washington und Lincoln sind spielbar. Das Repository hat keine Homepage.
+                    </p>
+                    <p><a href="https://github.com/kemckai/The-Presidency" target="_blank" rel="noopener">github.com/kemckai/The-Presidency</a></p>
+                </div>
+
+                <!-- 2. Same repository as the sim. Link uses the lowercase URL. No homepage. -->
+                <div class="portfolio-item" id="presidency-godot-3d">
+                    <h3 data-lang="en">The Presidency (Godot 3D)</h3>
+                    <h3 class="hidden" data-lang="de">The Presidency (Godot 3D)</h3>
+                    <p class="portfolio-category" data-lang="en">Godot 4.7 · kemckai/the-presidency</p>
+                    <p class="portfolio-category hidden" data-lang="de">Godot 4.7 · kemckai/the-presidency</p>
+                    <p class="portfolio-description" data-lang="en">
+                        Briefing room draws a 3D Oval Office (scenes/office_3d.tscn). Local copy on my MacBook: /Users/spectorclef/The Presidency. Same repository as the GitHub sim; GitHub names are case-insensitive. No homepage.
+                    </p>
+                    <p class="portfolio-description hidden" data-lang="de">
+                        Der Briefing Room zeichnet ein 3D-Oval Office (scenes/office_3d.tscn). Lokale Kopie auf meinem MacBook: /Users/spectorclef/The Presidency. Dasselbe Repository wie die GitHub-Simulation; GitHub-Namen unterscheiden keine Groß- und Kleinschreibung. Keine Homepage.
+                    </p>
+                    <p><a href="https://github.com/kemckai/the-presidency" target="_blank" rel="noopener">github.com/kemckai/the-presidency</a></p>
+                </div>
+
+                <!-- 3. kemckai/Presidency-Unity. No homepage. -->
+                <div class="portfolio-item" id="presidency-unity-prototype">
+                    <h3 data-lang="en">The Presidency (Unity prototype)</h3>
+                    <h3 class="hidden" data-lang="de">The Presidency (Unity-Prototyp)</h3>
+                    <p class="portfolio-category" data-lang="en">Unity 6.3 URP · first-person comparison prototype</p>
+                    <p class="portfolio-category hidden" data-lang="de">Unity 6.3 URP · First-Person-Vergleichsprototyp</p>
+                    <p class="portfolio-description" data-lang="en">
+                        unity-prototype/ is a first-person 3D Oval Office comparison prototype, not the shipped game. Local worktree: /Users/spectorclef/Presidency-Unity. No homepage.
+                    </p>
+                    <p class="portfolio-description hidden" data-lang="de">
+                        unity-prototype/ ist ein First-Person-Vergleichsprototyp eines 3D-Oval Office, nicht das veröffentlichte Spiel. Lokaler Worktree: /Users/spectorclef/Presidency-Unity. Keine Homepage.
+                    </p>
+                    <p><a href="https://github.com/kemckai/Presidency-Unity" target="_blank" rel="noopener">github.com/kemckai/Presidency-Unity</a></p>
+                </div>
+
+                <!-- 4. kemckai/Presidency-Unity-Port. No homepage. -->
+                <div class="portfolio-item" id="presidency-unity-port">
+                    <h3 data-lang="en">The Presidency (Unity port)</h3>
+                    <h3 class="hidden" data-lang="de">The Presidency (Unity-Port)</h3>
+                    <p class="portfolio-category" data-lang="en">Unity 6.3 URP · 3D port of the historical game</p>
+                    <p class="portfolio-category hidden" data-lang="de">Unity 6.3 URP · 3D-Port des historischen Spiels</p>
+                    <p class="portfolio-description" data-lang="en">
+                        unity/ loads a Blender oval-office set. This is the 3D Unity port of the historical game. Local worktree: /Users/spectorclef/Presidency-Unity-Port. No homepage.
+                    </p>
+                    <p class="portfolio-description hidden" data-lang="de">
+                        unity/ lädt ein Blender-Oval-Office-Set. Das ist der 3D-Unity-Port des historischen Spiels. Lokaler Worktree: /Users/spectorclef/Presidency-Unity-Port. Keine Homepage.
+                    </p>
+                    <p><a href="https://github.com/kemckai/Presidency-Unity-Port" target="_blank" rel="noopener">github.com/kemckai/Presidency-Unity-Port</a></p>
+                </div>
+
+                <!-- 5. kemckai/The-Presidency-2030. No homepage. -->
+                <div class="portfolio-item" id="presidency-2030">
+                    <h3 data-lang="en">The Presidency 2030</h3>
+                    <h3 class="hidden" data-lang="de">The Presidency 2030</h3>
+                    <p class="portfolio-category" data-lang="en">Unity 6.0.58f1 · 2030 game</p>
+                    <p class="portfolio-category hidden" data-lang="de">Unity 6.0.58f1 · Spiel 2030</p>
+                    <p class="portfolio-description" data-lang="en">
+                        A 2030 presidency game that builds a 3D Oval Office from primitives. Different game from the historical desk. Local project: /Users/spectorclef/The Presidency_2030. No homepage.
+                    </p>
+                    <p class="portfolio-description hidden" data-lang="de">
+                        Ein Präsidentschaftsspiel im Jahr 2030, das ein 3D-Oval Office aus Grundformen baut. Ein anderes Spiel als der historische Schreibtisch. Lokales Projekt: /Users/spectorclef/The Presidency_2030. Keine Homepage.
+                    </p>
+                    <p><a href="https://github.com/kemckai/The-Presidency-2030" target="_blank" rel="noopener">github.com/kemckai/The-Presidency-2030</a></p>
+                </div>
             </div>
         </div>
     </section>
